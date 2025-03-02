@@ -101,7 +101,7 @@ const float32 maxAngularCorrection	= (8.0f / 180.0f * pi);
 
 /// The maximum linear velocity of a body. This limit is very large and is used
 /// to prevent numerical problems. You shouldn't need to adjust this.
-const float32 maxTranslation		= 2.0f;
+const float32 maxTranslation		= 6.0f;
 const float32 maxTranslationSquared	= (maxTranslation * maxTranslation);
 
 /// The maximum angular velocity of a body. This limit is very large and is used
